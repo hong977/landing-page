@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.black-header{
+    background-color: #1F2937;
+    color: white;
+}
+
+.content{
+
+}
+
+.grey-quote{
+    background-color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+}
