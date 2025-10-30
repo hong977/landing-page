@@ -12,6 +12,10 @@ body {
     font-family: 'Roboto', serif;
 }
 
+body div{
+    flex: 1;
+}
+
 ul {
     list-style-type: none;
     gap: 10px;
@@ -122,6 +126,22 @@ ul {
 
 .sec-3{
     background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 25vw;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.sec-3 p{
+    margin-bottom: 0.2em;
+    font-style: italic;
+}
+
+.quoted-by{
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 .footer{
