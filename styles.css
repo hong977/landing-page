@@ -70,7 +70,7 @@ ul {
     color: #E5E7EB;
 }
 
-#sign-up-btn{
+.sign-up-btn{
     color:white;
     background-color: #3882F6;
     border: none;
@@ -88,6 +88,7 @@ ul {
 .sec-1-main-img img{
     max-width:100%;
     object-fit: scale-down;
+    border-radius: 1em;
 }
 
 .sec-2{
@@ -144,7 +145,39 @@ ul {
     font-weight: bold;
 }
 
+.sec-4{
+    padding: 3em;
+    color:#F9FAF8
+}
+
+.sec-4-card{
+    align-self: center;
+    background-color:#3882F6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    width: 70vw;
+    height: auto;
+    padding: 1em 4em;
+}
+
+#sec-4-bold{
+    margin:0;
+}
+
+#sign-up-now{
+    margin:0;
+}
+
+.sec-4 button{
+    border: 1px solid white;
+    align-self: center;
+    margin-top:0;
+}
+
 .footer{
     background-color: #1F2937;
     color: white;
+    text-align: center;
+    padding: 1.5em;
 }
