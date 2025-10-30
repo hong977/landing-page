@@ -9,11 +9,22 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto', serif;
 }
 
 ul {
     list-style-type: none;
     gap: 10px;
+}
+
+.header-link{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+#topleft-title{
+    font-size: 24px;
+    color:#F9FAF8;
 }
 
 .sec-1{
@@ -31,6 +42,7 @@ ul {
     margin: 3em auto;
     width: 70vw;
     align-self: center;
+    gap: 1.5em;
 }
 
 .sec-1-main-text{
@@ -43,11 +55,15 @@ ul {
     margin:0;
     flex: 1;
     font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .sec-1-main-text p{
     margin:0;
     flex:1;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #sign-up-btn{
@@ -56,7 +72,8 @@ ul {
     border: none;
     padding: 0.5em 1.2em;
     border-radius: 0.5em;;
-    
+    margin-top: 1em;
+    cursor:pointer;
 }
 
 .sec-1-main-img{
