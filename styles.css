@@ -28,9 +28,46 @@ ul {
 }
 
 .sec-1-main{
-    margin: 3em;
+    margin: 3em auto;
+    width: 70vw;
+    align-self: center;
 }
 
+.sec-1-main-text{
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.sec-1-main-text h1{
+    margin:0;
+    flex: 1;
+    font-size: 48px;
+}
+
+.sec-1-main-text p{
+    margin:0;
+    flex:1;
+}
+
+#sign-up-btn{
+    color:white;
+    background-color: #3882F6;
+    border: none;
+    padding: 0.5em 1.2em;
+    border-radius: 0.5em;;
+    
+}
+
+.sec-1-main-img{
+    flex: 1;
+    justify-content: center;
+}
+
+.sec-1-main-img img{
+    max-width: 100%;
+    object-fit: cover;
+}
 
 .grey-quote{
     background-color: #E5E7EB;
