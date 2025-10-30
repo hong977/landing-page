@@ -86,7 +86,41 @@ ul {
     object-fit: scale-down;
 }
 
-.grey-quote{
+.sec-2{
+    padding: 1em;
+    align-items: center;
+}
+
+#sec-2-title{
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards{
+    gap: 2em;
+    width: 70vw;
+}
+
+.card{
+    flex:1;
+    align-items: center;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1em;
+    outline: 1px solid #1F2937;
+}
+
+.card p{
+    text-align: center;
+}
+
+.sec-3{
     background-color: #E5E7EB;
 }
 
