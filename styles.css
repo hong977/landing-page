@@ -24,6 +24,7 @@ ul {
 .header-link{
     font-size: 18px;
     color:#E5E7EB;
+    text-decoration: none;
 }
 
 #topleft-title{
@@ -155,10 +156,10 @@ ul {
     background-color:#3882F6;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 2em;
     width: 70vw;
     height: auto;
-    padding: 1em 4em;
+    padding: 2em 5em;
+    margin: 4em;
 }
 
 #sec-4-bold{
