@@ -22,13 +22,13 @@ ul {
 }
 
 .header-link{
-    font-size: 18px;
+    font-size: 1rem;
     color:#E5E7EB;
     text-decoration: none;
 }
 
 #topleft-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     color:#F9FAF8;
 }
 
@@ -59,7 +59,7 @@ ul {
 .sec-1-main-text h1{
     margin:0;
     flex: 1;
-    font-size: 48px;
+    font-size: 2.5rem;
     color: #F9FAF8;
     font-weight: 900;
 }
@@ -67,7 +67,7 @@ ul {
 .sec-1-main-text p{
     margin:0;
     flex:1;
-    font-size: 18px;
+    font-size: 1rem;
     color: #E5E7EB;
 }
 
@@ -99,7 +99,7 @@ ul {
 
 #sec-2-title{
     align-self: center;
-    font-size: 36px;
+    font-size: 2rem;
     color: #1F2937;
     font-weight: 900;
 }
@@ -124,6 +124,7 @@ ul {
 
 .card p{
     text-align: center;
+    font-size: 1rem;
 }
 
 .sec-3{
@@ -131,7 +132,7 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 2em 25vw;
-    font-size: 36px;
+    font-size: 2rem;
     color: #1f2937;
     font-weight: 300;
 }
@@ -139,11 +140,13 @@ ul {
 .sec-3 p{
     margin-bottom: 0.2em;
     font-style: italic;
+    font-size: 1rem;
 }
 
 .quoted-by{
     align-self: flex-end;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 .sec-4{
