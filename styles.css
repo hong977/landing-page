@@ -1,5 +1,6 @@
 :root{
     --color-bg-main: #EAF6FF;
+    --color-bg-second: #FFF6E5;
 }
 
 body {
@@ -25,7 +26,7 @@ h1, h2, h3 {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    gap:1rem;
+    gap: 2rem;
 }
 
 .hero_header_links {
@@ -47,6 +48,7 @@ h1, h2, h3 {
 
 .hero_content_image_container{
     flex: 1;
+    max-width: clamp(100px,20vw,500px)
 }
 
 #hero_content_image{
@@ -66,7 +68,7 @@ h1, h2, h3 {
     flex-direction: row;
     padding: 1rem 2rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -87,5 +89,17 @@ h1, h2, h3 {
 }
 
 .card_description {
+    flex:1;
     font-size: 1rem;
+    text-align: center;
+}
+
+.quote {
+    padding: 1rem 2rem;
+    background-color: var(--color-bg-second);
+}
+
+.quote h3{
+    width: 100%;
+    text-align: end;
 }
