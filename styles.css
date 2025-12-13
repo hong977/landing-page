@@ -3,6 +3,10 @@
     --color-bg-second: #FFF6E5;
 }
 
+html {
+  font-size: clamp(13px, 1.1vw, 15px);
+}
+
 body {
     padding: 0;
     margin:0;
@@ -21,9 +25,11 @@ p {
 }
 
 .hero{
+    flex:1;
     background-color: var(--color-bg-main);
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .hero_header {
@@ -32,6 +38,7 @@ p {
     align-items: center;
     padding: 1rem 2rem;
     gap: 2rem;
+    border-bottom: 1px solid black;
 }
 
 .hero_header h1{
@@ -71,6 +78,7 @@ p {
 }
 
 .info {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,6 +97,7 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
+    width: 100%;
 }
 
 .card {
@@ -117,17 +126,17 @@ p {
 }
 
 .quote {
-    padding: 1rem 2rem;
+    flex: 1;
+    padding: 1rem 4rem;
     background-color: var(--color-bg-second);
 }
 
 .quote h3{
-    width: 100%;
     text-align: end;
 }
 
 .cta {
-    margin: 2rem 4rem;
+    margin: 1rem 2rem;
     padding: 1rem 4rem;
     display: flex;
     flex-direction: row;
